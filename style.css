@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	vertical-align: baseline;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+	 background-image: linear-gradient(-70deg, #F8FAFE, #DBE4F2);
+}
+
+a {
+	text-decoration:none;
+	color:#000;	
+}
+
+input:focus{
+    outline: none;
+}
+ 
+.sR-link_area {
+	display:block;
+	margin:0 0 1.3em 0;
+	padding:0.2em;
+}
+
+.sR-link_area:hover{
+	display:block;
+	background-color:#eee;
+}
+ 
+h1 {
+	font-size:1.9em;
+	font-weight:bold;
+	color:#888;
+	text-align:left;
+	margin-bottom:0.9em;
+}
+ 
+.sR-title {
+	color:#000;
+	font-weight:bold;
+	font-size:1.07em;
+}
+
+.sR-adress {
+	 color:#6291AF;
+	 text-decoration:underline;
+}
+
+.sR-snippet {
+	color:#111;
+	overflow:hidden;
+}
+
+.sR-imgTHUMB{
+	display:inline-block;
+	border:1px solid black;
+	margin:0 0.7em 1.4em 0.7em;
+	text-align:left;
+	vertical-align:top;
+}
+
+.sR-imgTHUMB img {
+	max-height:7.3em;
+}
+
+#container {
+	display:block;
+	position:relative;
+	top:4em;
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+
+
+#SEARCHpanel {
+	position:relative;
+	display:inline-block;
+	width:70em;
+	height:3em;	
+	text-align:center;
+	vertical-align:middle;
+}
+
+#Q{
+	position:absolute;
+	left:0;
+	border:0.13em solid #ccc;
+	border-radius:0.4em;
+	font-size:1.7em;
+	padding:0.25em;
+	width:33em;
+}
+#submitBtt{
+	position:absolute;
+	right:0;
+	border:0.13em solid #ccc;
+	border-radius:0.4em;
+	font-size:1.7em;
+	color:#fff;
+	font-weight:bold;
+	padding:0.25em;
+	width:5em;
+	background-color:#BFBFBF;
+}
+
+#RESULTSpanel_1 {
+	box-sizing:border-box;
+	border:0.22em solid #ccc;
+	border-radius:1em;
+	display:inline-block;
+	position:relative;
+	width:35em;
+	text-align:center;
+	padding:1em;
+	background-color:#fff;
+	vertical-align:top;
+	margin:2.2em 1.5em 0 1.5em;
+	visibility:hidden;
+}
+
+#RESULTSpanel_2 {
+	box-sizing:border-box;
+	border:0.22em solid #ccc;
+	border-radius:1em;
+	display:inline-block;
+	position:relative;
+	width:32em;
+	min-height:25em;
+	padding:1em 1.5em;
+	background-color:#fff;
+	vertical-align:top;
+	text-align:left;
+	margin:2.2em 1.5em 0 1.5em;
+	visibility:hidden;
+}
+
+.navigation {
+	display:block;
+	text-align:center;
+	margin-top:2em;
+}
+
+.nav-page{
+	display:inline-block;
+	font-size:1.1em;
+	margin-right:0.4em;
+	color:#444;
+	cursor:pointer;
+}
+
+.nav-page:hover{
+	text-decoration:underline;
+
+}
+
+.nav-current-page {
+	color:#111;
+	text-decoration:underline;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+
+
